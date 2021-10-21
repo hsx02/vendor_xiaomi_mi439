@@ -217,9 +217,61 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
 
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>olivelite_ov13b10_qtech</SensorName>
+    <ActuatorName>olive_fp5510_ov13b10_qtech</ActuatorName>
+    <EepromName>olive_ov13b10_qtech</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>olive_ov13b10_qtech_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.789</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>63.1</HorizontalViewAngle>
+      <VerticalViewAngle>49.4</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+
    <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>olive_ov13b10_ofilm</SensorName>
+    <ActuatorName>olive_dw9714_ov13b10_ofilm</ActuatorName>
+    <EepromName>olive_ov13b10_ofilm</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>olive_ov13b10_ofilm_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.789</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>49.1</HorizontalViewAngle>
+      <VerticalViewAngle>62.6</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>olivelite_ov13b10_ofilm</SensorName>
     <ActuatorName>olive_dw9714_ov13b10_ofilm</ActuatorName>
     <EepromName>olive_ov13b10_ofilm</EepromName>
     <FlashName>pmic</FlashName>
@@ -316,6 +368,30 @@ LensInfo : Information of the lens present in the module.
   </CameraModuleConfig>
 
   <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>olivewood_s5k4h7_sunny</SensorName>
+    <ChromatixName>olivewood_s5k4h7_sunny_chromatix</ChromatixName>
+     <EepromName>olive_s5k4h7_sunny</EepromName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x13</LaneMask>
+      <LaneAssign>0x0020</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.99</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>0.454</TotalFocusDistance>
+      <HorizontalViewAngle>61.40</HorizontalViewAngle>
+      <VerticalViewAngle>47.90</VerticalViewAngle>
+      <MinFocusDistance>0.312</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+
+  <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>olive_gc2375_sunny</SensorName>
     <ChromatixName>olive_gc2375_sunny_chromatix</ChromatixName>
@@ -364,6 +440,28 @@ LensInfo : Information of the lens present in the module.
     <CameraId>2</CameraId>
     <SensorName>olive_gc02m1_sunny</SensorName>
     <ChromatixName>olive_gc02m1_sunny_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x2c</LaneMask>
+      <LaneAssign>0x0003</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.94</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>0.6</TotalFocusDistance>
+      <HorizontalViewAngle>71.0</HorizontalViewAngle>
+      <VerticalViewAngle>56.0</VerticalViewAngle>
+      <MinFocusDistance>0.25</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+ <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>olivewood_gc02m1_sunny</SensorName>
+    <ChromatixName>olivewood_gc02m1_sunny_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
