@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/bin/sensors.qti.olive:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti.olive \
     vendor/xiaomi/mi439/proprietary/vendor/bin/sensors.qti.pine:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti.pine \
+    vendor/xiaomi/mi439/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb \
     vendor/xiaomi/mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb \
     vendor/xiaomi/mi439/proprietary/vendor/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb \
