@@ -3310,8 +3310,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_ov13855_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_ov13855_qtech.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib/libmmcamera_pine_ov13855_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pine_ov13855_qtech_eeprom.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
-    vendor/xiaomi/mi439/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/xiaomi/mi439/proprietary/vendor/lib64/hw/consumerir.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8937.so \
+    vendor/xiaomi/mi439/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/xiaomi/mi439/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
